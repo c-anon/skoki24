@@ -10,3 +10,5 @@ python3 -m venv venv # create venv
 source venv/bin/activate # activate venv
 
 pip install -r requirements.txt # download deps 
+
+python manage.py runserver # start app locally
